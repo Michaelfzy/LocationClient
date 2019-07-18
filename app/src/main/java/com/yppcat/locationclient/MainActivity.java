@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 Log.e(TAG, "getLocation: "+ location.getLongitude() );
                 double lngd =  location.getLongitude();
                 double latd =  location.getLongitude();
-                lng.setText(Double.toString(lngd));
-                lat.setText(Double.toString(latd));
+                lng.setText("经度"+Double.toString(lngd));
+                lat.setText("纬度"+Double.toString(latd));
 
             }
         });
